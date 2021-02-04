@@ -152,7 +152,7 @@ Use the removeFlavorByName function below to do the following:
 
 function removeFlavorByName(gotArray, flavorName) {
     let result = gotArray.indexOf(flavorName)
-    gotArray.splice(flavorName, 1)
+    gotArray.splice(result, 1)
     return gotArray
 }
 
@@ -179,21 +179,26 @@ Use the filterByWord function below to do the following:
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
-// function filterByWord(/*name*/) {
-//     /*name*/
-// }
-
-function filterByWord(receivedArray, flavorName) {
-    receivedArray.indexOf(flavorName)
-
-    //receivedArray.filter
-    // for loop
-    //.push(flavorName)
-    //receivedArray
-
+function filterByWord(/*name*/) {
+    /*name*/
 }
 
-filterByWord(originalFlavors, "Chocolate")
+// function filterByWord(receivedArray, flavorName) {
+//     for (let i = 0; i < receivedArray.length; i++) {
+//         let filteredArray = receivedArray.filter(flavorName)
+//         return filteredArray
+//     }
+// }
+
+// filterByWord(originalFlavors, "Chocolate")
+
+
+// receivedArray.push(result)
+// lengthNum = receivedArray.length()
+
+//.push(flavorName)
+//receivedArray
+
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/
 
